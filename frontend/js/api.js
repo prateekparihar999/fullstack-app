@@ -1,4 +1,4 @@
-const API_BASE = "https://localhost:5000/api";
+const API_BASE = "https://fullstack-app-backend-gp19.onrender.com/api";
 async function getData(route) {
   const res = await fetch(`${API_BASE}/${route}`);
   return res.json();
